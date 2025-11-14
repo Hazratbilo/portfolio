@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hazrat bilo</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./images/WhatsApp Image 2025-11-14 at 15.36.49_5fac3df0.jpg" type="image">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+
+<body id="body">
+    <header class="white-background section-right-left d-flex justify-between align-center header-top-bottom position">
+        <h1 class="font-size-s">Hazrat Bilo</h1>
+
+        <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+
+        <div class="menu" id="menu">
+            <nav>
+                <ul>
+                    <li><i class="fa-solid fa-xmark" onclick="hidemenu()"></i></li>
+                    <li><a href="#home" class="a black">Home</a></li>
+                    <li><a href="#about" class="a black">About</a></li>
+                    <li><a href="#services" class="a black">Services</a></li>
+                    <li><a href="#portfolio" class="a black">Portfolio</a></li>
+                    <li><a href="#contact" class="a black">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section style="position:fixed; top: 50%; right: 20px;">
+        <div>
+            <button onclick="location.href='https://github.com/hazratbilo'" class="button-blue white font-size-m"
+                title="git hub"><i class="fa-brands fa-github"></i></button><br><br>
+            <button onclick="location.href='https://www.linkedin.com/in/hazrat-bilo/'"
+                class="button-blue white font-size-m" title="linkedin"><i class="fa-brands fa-linkedin-in"></i></button>
+        </div>
+    </section>
+
+    <section class="section-right-left justify-between section-top-bottom background-img grid-2" id="home">
+        <div>
+            <h1 class="font-size-l">Hi, I'm <span class="blue">Bilal</span></h1>
+            <h1 class="font-size-l">Welcome to my Portfolio</h1>
+            <p class="font-size-s pt-15 pb-20">Front-end, Back-end Developer, UI/UX Designer & Deployer</p>
+            <button class="button font-size-s button-blue white" onclick="location.href='#contact'">Contact me</button>
+        </div>
+
+        <div class="d-flex justify-end">
+            <img src="./images/WhatsApp Image 2025-11-14 at 15.36.49_5fac3df0.jpg" alt="my img"
+                style="border-radius: 80%;" width="80%">
+        </div>
+    </section>
+
+    <section class="section-right-left section-top-bottom grid-3 justify-between" id="about">
+        <div>
+             <div class="d-flex gap-s align-center pb-20 justify-center">
+            <span style="color: #6D28D9;font-size: 24px;">&raquo;&raquo;</span>
+            <p class="font-size-m blue">ABOUT ME</p>
+            </div>
+            <h1 class="font-size-sm pb-20">My Soft Skills</h1>
+            <p class="font-size-s fade">I am a detail-oriented and highly adaptable web developer with strong
+                communication and collaboration abilities. I work well in team environments and enjoy contributing
+                todiscussions, explaining technical concepts clearly, and supporting smooth project development. I
+                approach challenges with logical problem-solving and creativity, ensuring that each solution is
+                efficient, secure, and user-focused.
+
+                My work style is defined by reliability, professionalism, and good time management. I organise tasks
+                effectively, meet deadlines, and consistently deliver high-quality results. I pay close attention to
+                UI/UX details, maintain clean and maintainable code, and ensure that applications function smoothly
+                across all platforms.
+
+                I am committed to continuous learning, staying updated with modern technologies such as C#, ASP.NET MVC,
+                HTML, CSS, JavaScript, SQL, and responsive design practices. I adapt quickly to new tools and project
+                requirements while maintaining a positive, solution-driven mindset. I take full ownership of my work and
+                aim to build applications that are intuitive, secure, and aligned with user needs.</p>
+        </div>
+        <div>
+            <div class="pb-20">
+                <div class="d-flex justify-between">
+                    <p>HTML</p>
+                    <p>95%</p>
+                </div>
+                <progress value="95" max="100" class="border-box"></progress>
+            </div>
+            <div class="pb-20">
+                <div class="d-flex justify-between">
+                    <p>CSS</p>
+                    <p>90%</p>
+                </div>
+                <progress value="90" max="100" class="border-box"></progress>
+            </div>
+            <div class="pb-20">
+                <div class="d-flex justify-between">
+                    <p>Bootstrap</p>
+                    <p>75%</p>
+                </div>
+                <progress value="75" max="100" class="border-box"></progress>
+            </div>
+            <div class="pb-20">
+                <div class="d-flex justify-between">
+                    <p>c#</p>
+                    <p>99%</p>
+                </div>
+                <progress value="99" max="100" class="border-box"></progress>
+            </div>
+        </div>
+        <div>
+            <div class="pb-20">
+                <div class="d-flex justify-between">
+                    <p>Canva</p>
+                    <p>95%</p>
+                </div>
+                <progress value="95" max="100" class="border-box"></progress>
+            </div>
+            <div class="pb-20">
+                <div class="d-flex justify-between">
+                    <p>javascript</p>
+                    <p>35%</p>
+                </div>
+                <progress value="33" max="100" class="border-box"></progress>
+            </div>
+            <div class="pb-20">
+                <div class="d-flex justify-between">
+                    <p>react</p>
+                    <p>20%</p>
+                </div>
+                <progress value="20" max="100" class="border-box"></progress>
+            </div>
+            <div class="pb-20">
+                <div class="d-flex justify-between">
+                    <p>Wordress</p>
+                    <p>30%</p>
+                </div>
+                <progress value="30" max="100" class="border-box"></progress>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-right-left section-top-bottom light-background" id="services">
+        <div class="d-flex gap-s align-center pb-20 justify-center">
+            <span style="color: #6D28D9;font-size: 24px;">&raquo;&raquo;</span>
+            <p class="font-size-m blue">MY SERVICES</p>
+        </div>
+        <h1 class="text-align pb-20 font-size-sm">I'm Specialized In</h1>
+        <div class="grid-4 justify-between">
+              <div class="white-background pad">
+                <h1 class="font-size-s pb-20">Back-End Development</h1>
+                <img src="./images/service-icon4-dev.png" alt="" width="40px" height="40px" class="pb-20">
+                <p class="fade">Developing robust server-side applications using C# and ASP.NET for secure and efficient
+                    functionality.</p>
+            </div>
+             <div class="white-background pad">
+                <h1 class="font-size-s pb-20">Front-End Development</h1>
+                <img src="./images/service-icon2-dev.png" alt="" width="40px" height="40px" class="pb-20">
+                <p class="fade">Transforming designs into functional, user-friendly websites using HTML, CSS, Bootstrap,
+                    and JavaScript.</p>
+            </div>
+            <div class="white-background pad">
+                <h1 class="font-size-s pb-20">Creative Web Design</h1>
+                <img src="./images/service-icon1-dev.png" alt="" width="40px" height="40px" class="pb-20">
+                <p class="fade">Crafting visually stunning and engaging website designs tailored to your brand identity.
+                </p>
+            </div>
+            <div class="white-background pad">
+                <h1 class="font-size-s pb-20">User-Centered UI/UX Design</h1>
+                <img src="./images/service-icon3-dev.png" alt="" width="40px" height="40px" class="pb-20">
+                <p class="fade">Conducting user research, usability testing, and crafting interactive prototypes.</p>
+            </div>
+           
+          
+        </div>
+    </section>
+
+    <section class="section-right-left section-top-bottom deem-background" id="portfolio">
+        <div class="d-flex gap-s align-center pb-20 justify-center">
+              <span style="color: #6D28D9;font-size: 24px;">&raquo;&raquo;</span>
+            <p class="font-size-m blue">MY PROJECTS</p>
+        </div>
+        <h1 class="text-align pb-20 font-size-sm">Check Out My Latest Work</h1>
+        <div class="grid-2 justify-between gap-s">
+            <div>
+                <img src="./images/Screenshot 2025-11-14 164819.png" alt="my work" class="border-box">
+                <h1 class="font-size-s">Web Design</h1>
+                <a href="https://qiraatulquran.netlify.app/" class="a">Qira`atul Quran memorization class</a>
+            </div>
+            <div>
+                <img src="./images/Screenshot 2025-11-14 171318.png" alt="my work 2" class="border-box">
+                <h1 class="font-size-s">Model-view-controller</h1>
+                <a href="https://github.com/hazratbilo" class="a">Notepad</a>
+            </div>
+           <div>
+                <img src="./images/Screenshot 2025-11-14 165739.png" alt="my work" class="border-box">
+                <h1 class="font-size-s">website</h1>
+                <a href="https://qiraatulquran.netlify.app/" class="a">Football Academy</a>
+            </div>
+            <div>
+            
+            <div>
+                <img src="./images/Screenshot 2025-07-17 161703.png" alt="my work 2" class="border-box">
+                <h1 class="font-size-s">Web Design</h1>
+                <a href="https://afaabdigitalschools.com/" class="a">Afaab Digital School</a>
+            </div>
+        </div>
+   
+    </section>
+
+    <section class="section-right-left section-top-bottom grid-2 justify-between stbackground-img" id="contact">
+        <div>
+            <div class="d-flex gap-s align-center pb-20">
+        <span style="color: #6D28D9;font-size: 24px;">&raquo;&raquo;</span>
+                <p class="font-size-m blue">STAY CONNECTED</p>
+            </div>
+            <h1 class="font-size-sm pb-20">Let’s Work Together!</h1>
+            <div class="d-flex gap-s pb-20 pt-15">
+                <button class="button-blue white ndp radius"><i class="fa-solid fa-phone font-size-m"></i></button>
+                <div>
+                    <p class="fade">Phone</p>
+                    <p>+234 904 481 8253</p>
+                </div>
+            </div>
+            <div class="d-flex gap-s pb-20 pt-15">
+                <button class="button-blue white ndp radius"><i class="fa-solid fa-envelope font-size-m"></i></button>
+                <div>
+                    <p class="fade">Email</p>
+                    <p>alatoyebilal14@gmail.com</p>
+                </div>
+            </div>
+            <div class="d-flex gap-s pb-20 pt-15">
+                <button class="button-blue white ndp radius"><i
+                        class="fa-solid fa-location-dot font-size-m"></i></button>
+                <div>
+                    <p class="fade">Address</p>
+                    <p>Ibeju-Lekki, Lagos State. Nigeria.</p>
+                </div>
+            </div>
+        </div>
+        <div class="white-background stp">
+            <form onsubmit="sendEmail(event)" id="contact-form">
+                <div class="d-flex gap-s pb-20">
+                    <input type="text" class="border-box ndp" required placeholder="Full Name" id="name">
+                    <input type="email" class="border-box ndp" required placeholder="Email" id="email">
+                </div>
+                <div class="d-flex gap-s pb-20">
+                    <input type="tel" class="border-box ndp" required placeholder="Phone Number" id="phone">
+                    <select class="border-box ndp" required id="services">
+                        <option value="">Choose Service</option>
+                        <option value="web-development">Web Design</option>
+                        <option value="ui/ux">UI/UX Design</option>
+                        <option value="front-end">Front-end Development</option>
+                        <option value="back-end">Back-End Development</option>
+                    </select>
+                </div>
+                <div class="pb-20">
+                    <textarea class="border-box pad" rows="7" placeholder="Message" id="message"></textarea>
+                </div>
+
+                <button class="button-blue white ndp" type="submit">SEND MESSAGE</button>
+            </form>
+        </div>
+    </section>
+    <section>
+        <button class="button-blue white ndp scroll" onclick="scrollToTop()"><i class="fa-solid fa-chevron-up"></i></button>
+    </section>
+    <footer class="section-top-bottom text-align">
+        <h1 class="font-size-s pb-20">Bilal</h1>
+        <p>© 2024. Designed by Bilal.</p>
+    </footer>
+</body>
+<script src="./form.js"></script>
+
+</html>
