@@ -1,5 +1,5 @@
 (function () { 
-    emailjs.init("bZRdSUpDDpwp_92PXJ");
+    emailjs.init("bZRdSUpDDpwp_92PX");
 })();
 
 function sendEmail(event) {
@@ -9,7 +9,7 @@ function sendEmail(event) {
     const name = document.getElementById("name").value.trim();
     const email = document.getElementById("email").value.trim();
     const phone = document.getElementById("phone").value.trim();
-    const services = document.getElementById("services").value.trim();
+    // const services = document.getElementById("services").value.trim();
     const message = document.getElementById("message").value.trim();
 
     console.log('Form submitted with:', {name, email, phone, services, message});
@@ -30,14 +30,14 @@ function sendEmail(event) {
         name: name,
         email: email,
         phone: phone,
-        services: services,
+        // services: services,
         message: message,
     };
 
     console.log('Sending email with params:', templateParams);
 
     // Send email via EmailJS
-    emailjs.send('service_oyicf87', 'templates_dsfis46', templateParams)
+    emailjs.send('service_oyicf87', 'template_dsfis46', templateParams)
         .then(
             (response) => {
                 console.log('Email sent successfully:', response);
