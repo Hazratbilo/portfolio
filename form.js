@@ -41,7 +41,7 @@ function sendEmail(event) {
         .then(
             (response) => {
                 console.log('Email sent successfully:', response);
-                alert('SUCCESS! Your message has been sent.We will get back to you shortly.Thanks');
+                alert('SUCCESS!!!!!! Your message has been sent to hazrat bilo.We will get back to you shortly.Thanks');
                 document.getElementById("contact-form").reset();
                 submitBtn.disabled = false;
                 submitBtn.textContent = 'SEND MESSAGE';
